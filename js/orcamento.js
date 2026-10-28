@@ -4,6 +4,14 @@ const inputServico = document.querySelector("#servico");
 const inputQuantidade = document.querySelector("#quantidade");
 const resultado = document.querySelector("#resultado");
 
+const sevicos =[
+  { nome: "Formatação", preco: 120 },
+  { nome: "Limpeza", preco: 80 },
+  { nome: "Instalação", preco: 150 }
+];
+
+console.log(sevicos[2].preco);
+
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
 
